@@ -77,3 +77,17 @@ servo({pin:10,estado:0, start:0, final:45})
 servo({pin:10,estado:1, veces:5,start:20, final:10,tiempo:2})  
 servo({pin:10,estado:0, veces:5,start:20, final:90,tiempo:0.5})  
 servo({pin:10,estado:2, veces:5,start:20, final:115,tiempo:0.5})  
+
+
+// ____      ____ ___  ___  ____ ____ 
+SINCRONISACIÓN
+
+sincronizarPin({s:bd,tipo:tidal,pin:4,gate:1000})
+detenerSincro(4)
+
+sincronizarPin({s:bd,tipo:tidal,pin:5,gate:500})
+detenerSincro(5)
+
+sincronizarPin({s:dosis,tipo:tidal,pin:4,gate:500})
+detenerSincro(4)
+

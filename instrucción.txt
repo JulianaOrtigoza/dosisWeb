@@ -1,3 +1,5 @@
+Conectar el arduino antes de empezar.
+
 voy hasta la carpeta en el cmd
 node index.js
 en el navegador web: http://localhost:3000/
